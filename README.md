@@ -97,19 +97,26 @@ mvn package
 ## Nexus Repository
 
 
-# Repository Type
+### Repository Type
 Maven Hosted Repository
 
 Purpose
+
 Store build artifacts
+
 Version management
+
 Centralized artifact repository
 
 
 ## Tomcat Deployment
 
 Deployment Steps
+
 Generate WAR file using Maven
+
 Copy WAR file into Tomcat webapps directory
+
 Restart Tomcat server
+
 Access deployed application in browser
