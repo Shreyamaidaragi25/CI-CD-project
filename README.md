@@ -123,3 +123,31 @@ pipeline {
 
     }
 }
+
+
+
+#** Sonar Qube Integration**
+
+Features
+Static Code Analysis
+Code Quality Gates
+Bug Detection
+Vulnerability Analysis
+
+#** Nexus Repository**
+
+Repository Type
+    Maven Hosted Repository
+Purpose
+    Store build artifacts
+    Version management
+    Centralized artifact repository
+
+#** Tomcat Deployment**
+
+
+Deployment Steps
+    Generate WAR file using Maven
+    Copy WAR file into Tomcat webapps directory
+    Restart Tomcat server
+    Access deployed application in browser
