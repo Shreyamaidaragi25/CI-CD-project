@@ -75,38 +75,41 @@ Separate EC2 instances were used for:
 
 ---
 
-# Maven Build Commands
+## Maven Build Commands
 
 ```bash
 mvn compile
 mvn test
 mvn package
+```
 
 ---
 
+## SonarQube Integration
 
-# Sonar Qube Integration
+### Features
 
-Features
-Static Code Analysis
-Code Quality Gates
-Bug Detection
-Vulnerability Analysis
+- Static Code Analysis
+- Code Quality Gates
+- Bug Detection
+- Vulnerability Analysis
 
-**Nexus Repository**
+## Nexus Repository
 
-Repository Type
-    Maven Hosted Repository
+
+# Repository Type
+Maven Hosted Repository
+
 Purpose
-    Store build artifacts
-    Version management
-    Centralized artifact repository
+Store build artifacts
+Version management
+Centralized artifact repository
 
-**Tomcat Deployment**
 
+## Tomcat Deployment
 
 Deployment Steps
-    Generate WAR file using Maven
-    Copy WAR file into Tomcat webapps directory
-    Restart Tomcat server
-    Access deployed application in browser
+Generate WAR file using Maven
+Copy WAR file into Tomcat webapps directory
+Restart Tomcat server
+Access deployed application in browser
