@@ -100,7 +100,7 @@ mvn package
 ### Repository Type
 Maven Hosted Repository
 
-Purpose
+Purpose:-
 
 Store build artifacts
 
