@@ -82,7 +82,7 @@ mvn compile
 mvn test
 mvn package
 
-## **Sample jenkins pipeline**
+# Sample jenkins pipeline
 pipeline {
     agent any
 
@@ -126,7 +126,7 @@ pipeline {
 
 
 
-#** Sonar Qube Integration**
+# Sonar Qube Integration
 
 Features
 Static Code Analysis
@@ -134,7 +134,7 @@ Code Quality Gates
 Bug Detection
 Vulnerability Analysis
 
-#** Nexus Repository**
+# Nexus Repository
 
 Repository Type
     Maven Hosted Repository
@@ -143,7 +143,7 @@ Purpose
     Version management
     Centralized artifact repository
 
-#** Tomcat Deployment**
+# Tomcat Deployment
 
 
 Deployment Steps
