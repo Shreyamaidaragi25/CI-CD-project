@@ -84,7 +84,7 @@ mvn package
 
 ---
 
-**Sample jenkins pipeline**
+## Project Overview
 pipeline {
     agent any
 
